@@ -72,4 +72,12 @@
 #     break
 #   print(a)
 
+while True:
+  a = int(input())
+  if a < 10:
+    continue
+  elif a > 100:
+    break
+  print(a)
+
 #Задание №3. Совершенные числа не мог сделать
