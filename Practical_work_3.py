@@ -50,14 +50,14 @@
 # print(stars(int(input("Enter amount of stars: "))))
 
 #Задание №4.
-a = float(input())
-n = int(input())
-def power(a, n):
-    if n == 0:
-        return 1
-    if n < 0:
-      	return 1 / power(a, 0 - n)
-    else:
-        return a * power(a, n - 1)
-
-print(power(a, n))
+# a = float(input())
+# n = int(input())
+# def power(a, n):
+#     if n == 0:
+#         return 1
+#     if n < 0:
+#       	return 1 / power(a, 0 - n)
+#     else:
+#         return a * power(a, n - 1)
+#
+# print(power(a, n))
